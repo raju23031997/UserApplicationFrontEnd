@@ -1,0 +1,54 @@
+.logopart{
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+  }
+  .cardNew{
+      /* height: 370px; */
+      margin-top: auto;
+      margin-bottom: auto;
+      margin: auto;
+      width: 400px;
+      background-color: rgba(0,0,0,0.5) !important;
+  }
+.text-center{
+  color: antiquewhite;
+}
+
+  .divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;   
+    z-index: 2;
+  }
+  .divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .btn-facebook {
+    background-color: #405D9D;
+    color: #fff;
+  }
+  .btn-twitter {
+    background-color: #42AEEC;
+    color: #fff;
+  }
+  
+  
+  

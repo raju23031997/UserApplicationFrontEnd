@@ -1,0 +1,12 @@
+.body-part{
+    height: 86vh;
+    /* background-color: rgb(224, 213, 197); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .body-part > h1{
+    color: blueviolet;
+    font-size: 3.5rem;
+  }
