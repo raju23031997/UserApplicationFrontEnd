@@ -21,7 +21,7 @@ export default function Home() {
     return <>
         <div className="body-part">
             <h1>Welcome to the landing page</h1>
-            {userData ? <h3>Hello {userData}</h3>:<h3>User not in login click here for <Link to='/Login' >login</Link></h3>}
+            {userData ? <h3>Hello {userData}</h3>:<h3>User not in login click here for <Link to='/Login' >login</Link> and <Link to="/SignUp">SignUp</Link></h3>}
         </div>
     </>
 }
