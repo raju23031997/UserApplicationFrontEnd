@@ -10,3 +10,12 @@
     color: blueviolet;
     font-size: 3.5rem;
   }
+  
+  /* .body-part > h3{
+    color: black;
+  } */
+
+  .body-part > h3> a{
+    color: black;
+    text-decoration: underline;
+  }
