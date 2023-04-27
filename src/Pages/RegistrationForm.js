@@ -40,7 +40,8 @@ export default function RegistrationForm() {
         try {
             e.preventDefault()
             const { name, email, phone, tenmark, Twelvemark, rID, address, gender, stream, Aadhar } = userFormData
-            const { data , status} = await axios.post("http://localhost:5000/RegistrationForm", {
+            // const { data , status} = await axios.post("http://localhost:5000/RegistrationForm", {
+                const { data , status} = await axios.post("https://useraddform.netlify.app/RegistrationForm", {
                 name, email, phone, tenmark, Twelvemark, rID, address, gender, stream, Aadhar
             })
             if(status === 204){

@@ -14,7 +14,7 @@ export default function Navbar() {
                     </div>
                     <div className="col-10">
                         <ul className="list">
-                            { getDatafromLocalforNav == null ? "" :
+                            {getDatafromLocalforNav == null ? "" :
                                 <li>
                                     <Link to="/ApplicationView"><span>Application View</span></Link>
                                 </li>

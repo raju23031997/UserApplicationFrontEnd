@@ -33,7 +33,8 @@ function SignUp() {
         try {
             e.preventDefault()
             const { name, email, phone, password, cpassword } = userData
-            const { data, status } = await axios.post("http://localhost:5000/signUp", {
+            // const { data, status } = await axios.post("http://localhost:5000/signUp", {
+                const { data, status } = await axios.post("https://useraddform.netlify.app/signUp", {   
                 name, email, phone, password, cpassword
             })
 
